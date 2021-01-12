@@ -7,7 +7,7 @@ This schedule maps out what we are covering in class each week and what work we 
 
 If you want to know what is due for next class, [check here]({{ site.baseurl }}/due).
 
-### Week 1 [8.25]
+### Week 1 [1.25]
 This week we'll start to get to know a bit about each other and spend a little time reviewing how this course will work. Then we'll move onto an overview of the programs, tools, and languages we will be using. We will also look at a few basic HTML elements and build a web page.
 
 #### Lessons
@@ -24,7 +24,7 @@ This week we'll start to get to know a bit about each other and spend a little t
 
 ---
 
-### Week 2 [9.1]
+### Week 2 [2.2]
 This week we will take a look at the primary visual structure of the web, grids. We will learn about creating our own grids and how to use those grids to layout content. We will also go over the concept of space as it relates to design.
 
 #### Lessons
@@ -39,7 +39,7 @@ None
 
 ---
 
-### Week 3 [9.8]
+### Week 3 [2.9]
 This week we'll go a little further into HTML and begin to introduce CSS. We will look at best practices for folder and file naming, organization, and structure as well as the first steps of planning and designing a website. We will also introduce the thing that makes the internet the internet, links.
 
 #### Lessons
@@ -58,7 +58,7 @@ This week we'll go a little further into HTML and begin to introduce CSS. We wil
 
 ---
 
-### Week 4 [9.15]
+### Week 4 [2.16]
 Much of the information on the internet is gathered through reading. As designers we want to be able to present that information in a clear and understandable way so this week we are talking about hierarchy and typography.
 
 #### Lessons
@@ -73,7 +73,7 @@ Much of the information on the internet is gathered through reading. As designer
 
 ---
 
-### Week 5 [9.22]
+### Week 5 [2.23]
 This week we will cover how to add and style images and how to target more specifically with CSS selectors.
 
 #### Lessons
@@ -90,7 +90,7 @@ This week we will cover how to add and style images and how to target more speci
 
 ---
 
-### Week 6 [9.29]
+### Week 6 [3.2]
 Responsive design is a key element of designing for the web today. This week we will introduce the concept and coding principles behind getting a website to show up well on a narrow phone screen and a wide desktop monitor.
 
 #### Lessons
@@ -105,7 +105,7 @@ Responsive design is a key element of designing for the web today. This week we 
 
 ---
 
-### Week 7 [10.6]
+### Week 7 [3.9]
 Every element in HTML is a rectangular box and the box model will help us understand how those elements get drawn on the screen. We will also talk about one way to layout pages with HTML and CSS &mdash; floats.
 
 #### Lessons
@@ -121,12 +121,12 @@ Every element in HTML is a rectangular box and the box model will help us unders
 
 ---
 
-### Week 8 [10.13]
+### Week 8 [3.16]
 10 minute individual midterm meetings scheduled through the link in your email and posted in Slack.
 
 ---
 
-### Week 9 [10.20]
+### Week 9 [3.23]
 We will continue our discussion on floats and expand what we are able to build using them.
 
 #### Lessons
@@ -140,7 +140,7 @@ We will continue our discussion on floats and expand what we are able to build u
 
 ---
 
-### Week 10 [10.27]
+### Week 10 [3.30]
 Using CSS we can position elements exactly where we want them to appear on screen or in relation to other elements. This week we will cover four different kinds of positioning and use them to make the browser a drawing tool.
 
 #### Lessons
@@ -155,12 +155,7 @@ Using CSS we can position elements exactly where we want them to appear on scree
 
 ---
 
-### Week 11 [11.3]
-Election Day, no class. Go vote if you haven't!
-
----
-
-### Week 12 [11.10]
+### Week 11 [4.6]
 This week we will cover navigation design and how to make those designs come to life on the web.
 
 #### Lessons
@@ -174,7 +169,7 @@ This week we will cover navigation design and how to make those designs come to 
 
 ---
 
-### Week 13 [11.17]
+### Week 12 [4.13]
 So far we have covered how to style pages with CSS but those styles have generally remained static. This week we will expand our skills in CSS and learn how to animate our designs.
 
 #### Lessons
@@ -188,7 +183,7 @@ So far we have covered how to style pages with CSS but those styles have general
 
 ---
 
-### Week 14 [11.24]
+### Week 13 [4.20]
 HTML and CSS are great for building and styling websites but they are not great at creating interaction or dynamic changes. This is where JavaScript and jQuery come in and this week we will cover some basic concepts of how to add simple interactions to a website.
 
 #### Lessons
@@ -202,7 +197,7 @@ HTML and CSS are great for building and styling websites but they are not great 
 
 ---
 
-### Week 15 [12.1]
+### Week 14 [4.27]
 We made it to the end! Today we will complete our final exercise in class.
 
 #### Lessons

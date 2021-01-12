@@ -4,11 +4,11 @@ title: Syllabus
 ---
 ### General
 
-This is the syllabus for the _Fall 2020_ class of _AVT 217: Intro to Web Design (3 credits)_. The instructor is _Michael McDermott_, can be reached by email at _mmcderm8 at gmu dot edu_, and can be met with at his [virtual office hours](https://calendly.com/michaelmcdermott) on Mondays from 12&ndash;2, Wednesdays from 10&ndash;12, and Fridays from 12&ndash;2.
+This is the syllabus for the _Spring 2021_ class of _AVT 217: Intro to Web Design (3 credits)_. The instructor is _Michael McDermott_, can be reached by email at _mmcderm8 at gmu dot edu_, and can be met with at his [virtual office hours](https://calendly.com/michaelmcdermott) on Mondays from 12&ndash;2, Wednesdays from 10&ndash;12, and Fridays from 12&ndash;2.
 
 ### Delivery and Timing
 
-This is a synchronous online course. That means we will meet once a week on Tuesdays from 10:30 to 1:10. These meetings are required and will also be recorded for later review. The class is currently scheduled to run for 15 weeks and you can expect to work for 6 hours outside of class each week.
+This is a synchronous online course. That means we will meet once a week on Tuesdays from 10:30 to 1:10. These meetings are required and will also be recorded for later review. The class is currently scheduled to run for 14 weeks and you can expect to work for 6 hours outside of class each week.
 
 ### Prerequisites
 
@@ -55,7 +55,7 @@ There are many different programs available to use for the work in this class. T
 
 #### other
 
-<span class="command">Zoom</span> (holding class sessions), <span class="command">Slack</span> (communication platform), <span class="command">Github Desktop</span> (updating your website), <span class="command">Chrome</span>, Safari, or Firefox (viewing your website, Internet Explorer is not an acceptable browser for this class)
+<span class="command">Zoom</span> (holding class sessions), <span class="command">Slack</span> (communication platform), <span class="command">Github Desktop</span> (updating your website), <span class="command">Chrome</span>, Safari, or Firefox (viewing your website. Internet Explorer is not an acceptable browser for this class)
 
 ### Content
 
@@ -68,22 +68,26 @@ The structure of a website is equally as important as the design of a website. G
 
 #### project 2: website for a [blank]
 
-Students will conceptualize, plan, design, and code a multipage website using one of several provided topics. The project will build off of the lessons each week and be a synthesis of the concepts and skills learned over the course of the semester. Each students project will be unique in content and form but be based on the same set of requirements. [More information here]({{ site.baseurl }}/projects).
+Students will conceptualize, plan, design, a responsive, multipage website using one of several provided topics. The site will consist of four pages and be designed for a desktop size and a mobile size. Each students project will be unique in content and form but be based on the same set of requirements. [More information here]({{ site.baseurl }}/projects).
 
-<!-- #### project 3: single serve
+#### project 3a: single serve
 
-A single serve website is comprised of a single page that only does one thing. You will come up with a concept and design for a single serve website and then build the website. The concept can be simple or complex but the site must only be a single page and serve a single function. The URL of the site should help explain the concept and the content should help reinforce the URL. If you need a place to look at single serve websites go [here](https://theuselessweb.com/). That website is a single serve website that takes you to other single serve websites. [More information here]({{ site.baseurl }}/projects). -->
+A single serve website is comprised of a single page that only does one thing. You will come up with a concept and design for a single serve website and then build the website. The concept can be simple or complex but the site must only be a single page and serve a single function. The URL of the site should help explain the concept and the content should help reinforce the URL. If you need a place to look at single serve websites go [here](https://theuselessweb.com/). That website is a single serve website that takes you to other single serve websites. [More information here]({{ site.baseurl }}/projects).
+
+#### project 3b: build project 2
+
+Take the website for a [blank] designs and code two of the pages. The coded version of the site should include the home page and one of the interior pages that was designed. The site will be responsive. [More information here]({{ site.baseurl }}/projects).
 
 ### Schedule
 
-The [schedule]({{ site.baseurl }}/schedule/) on this site is an outline of what we will be covering this summer with due dates. It is subject to additions and subtractions.
+The [schedule]({{ site.baseurl }}/schedule/) on this site is an outline of what we will be covering this spring with due dates. It is subject to additions and subtractions.
 
 ### Virtual Meeting Guide
 
 A few points to guide our virtual meetings. These are not demands but a guide to help us have a more engaging and productive meeting.
 
 1. Treat this as much like coming to class on campus as as you can.
-2. Join early. We are most likely at home so you shouldn’t have any extra traffic, long lines at the coffee shop, etc. Joining early will also help you work out any technical issues you might be experiencing with audio and/or video.
+2. Don't be late, join early. We are most likely at home so you shouldn’t have any extra traffic, long lines at the coffee shop, etc. Joining early will also help you work out any technical issues you might be experiencing with audio and/or video.
 3. Mute yourself upon entering the room unless, of course, you are talking. Remember when you start to talk to unmute yourself. Different platforms have different methods for muting and unmuting but it is typically easy to find in the main set of buttons in the bottom middle of the window.
 4. Have your video turned on with you in the frame. It is nice to see faces in a time where we do not get to see a lot of faces. Having your video on also helps you stay focused and engaged.
 5. Wear clothes appropriate for a meeting with me and with your classmates. Again, treat this like you were coming to class physically.
