@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-14T15:59:18-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Programmer and Computer</title><link href="http://localhost:4000/exercises/e20/" rel="alternate" type="text/html" title="Programmer and Computer" /><published>2020-12-12T00:00:00-05:00</published><updated>2020-12-12T00:00:00-05:00</updated><id>http://localhost:4000/exercises/e20</id><content type="html" xml:base="http://localhost:4000/exercises/e20/">&lt;h4 id=&quot;exercise-20-programmer-and-computer&quot;&gt;Exercise 20: Programmer and Computer&lt;/h4&gt;
+
+&lt;p&gt;PART 1 - THE PROGRAMMER: Create a simple drawing in XD in 2 minutes. Once you are finished, write a very precise set of instructions that will be executed by a computer. A classmate will be the computer and the result of that person following your program should result in an exact copy of your drawing. You cannot use images or verbal communications to help explain your instructions, only written words. You also cannot let the computer see what the final drawing should look like.&lt;/p&gt;
+
+&lt;p&gt;Upload the instructions to your website but do not upload the drawing yet.&lt;/p&gt;
+
+&lt;p&gt;PART 2 - THE COMPUTER: Using a classmates program, execute those instructions to recreate the drawing. Do not assume instructions, follow what is written as closely as you can. Send the final drawing back to the programmer. Do this step for two different programs.&lt;/p&gt;
+
+&lt;p&gt;PART 3 - UPLOAD: Once you have two drawings back from the two different computers, upload the two drawings along with your original to the same page as the instructions.&lt;/p&gt;
+
+&lt;p&gt;BRIEF HISTORY LESSON: A computer was actually a job description held by many humans at one point in time, especially during WWII, where computers (mostly women) were hired to do calculation and computation on vast quantities of numbers. Also, Ada Lovelace (December 10, 1815–November 17, 1852), the daughter of poet Lord Byron, published the first algorithm intended to be carried out by a machine and is regarded as the first computer programmer. Furthermore, the term “debugging” originated from the actions of programmer Grace Hopper (December 9, 1906–January 1, 1992), who took a literal moth out of military computer. In today’s male-dominated tech fields, it’s important recognize the roots of computation and programming.&lt;/p&gt;
+
+&lt;h5 id=&quot;requirements&quot;&gt;Requirements&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The instructions to complete the drawing your website (the program)&lt;/li&gt;
+  &lt;li&gt;Your drawing along with the two drawings from your computers (3 total images)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;due&quot;&gt;Due Tuesday, December 19 by 10:30 ET&lt;/span&gt;&lt;/p&gt;</content><author><name>Michael McDermott</name></author><category term="exercises" /><summary type="html">Exercise 20: Programmer and Computer</summary></entry><entry><title type="html">Making Columns</title><link href="http://localhost:4000/tutorials/4-point-1/" rel="alternate" type="text/html" title="Making Columns" /><published>2020-12-12T00:00:00-05:00</published><updated>2020-12-12T00:00:00-05:00</updated><id>http://localhost:4000/tutorials/4%20point%201</id><content type="html" xml:base="http://localhost:4000/tutorials/4-point-1/">&lt;p&gt;This tutorial will go through the process of setting up a two column layout with floats and divs using your main &lt;strong&gt;index.html&lt;/strong&gt; file and its associated CSS file to work with.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-open-your-repository-and-files&quot;&gt;&lt;span id=&quot;step1&quot;&gt;Step 1: Open Your Repository and Files&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Open your repository in Atom and then open up your main &lt;strong&gt;index.html&lt;/strong&gt; file and CSS file associated with it by double clicking on the files in the tree view.&lt;/p&gt;
+
+&lt;p&gt;Once both are open you can view them side by side by dragging the the tab with your CSS file to the right until the right column is highlighted. Once it is highlighted you can let go and you should be able to see both files as a split screen in Atom. If you don’t want to work this way that’s okay.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step1.png&quot; alt=&quot;two column view in Atom&quot; title=&quot;Step 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The HTML file in the screenshot should closely resemble your HTML file but the CSS file might look different than yours which is okay. If you want to see the actual code for the finished tutorial for these two files you can look at them on Github – &lt;a href=&quot;https://github.com/mmcdermott18/su2020-avt217/blob/gh-pages/index.html&quot;&gt;HTML file&lt;/a&gt;, &lt;a href=&quot;https://github.com/mmcdermott18/su2020-avt217/blob/gh-pages/css/main.css&quot;&gt;CSS file&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-section-off-the-html-file&quot;&gt;&lt;span id=&quot;step2&quot;&gt;Step 2: Section off the HTML file&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;We are going to work in the HTML file first and get all of our content structured in a way that will be easy to modify with CSS later. The goal of this step is to wrap content in the HTML file in semantic elements (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt;, etc.) or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt; elements. So let’s start with the semantic elements by adding a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt; element and a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; element to the page.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2a-adding-a-header-element&quot;&gt;Step 2a: Adding a Header Element&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt; element should contain content that would go in a … header (no better way to explain it 🤦). The main heading on this page seems like good content to go there. Wrap the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h1&lt;/code&gt; element in a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt; element. This means adding an opening tag for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt; on a new line above the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h1&lt;/code&gt; element, indenting the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h1&lt;/code&gt; element one level because now it is a child of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt; element, and then adding the closing tag for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt; on a new line below the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h1&lt;/code&gt; element. Should look something like the below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step2a.png&quot; alt=&quot;adding header element to html file&quot; title=&quot;Step 2a&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2b-adding-a-main-element&quot;&gt;Step 2b: Adding a Main Element&lt;/h4&gt;
+
+&lt;p&gt;Next we want to do a similar process with the other content on the page (which in this example is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ul&lt;/code&gt; and all the content it contains). This time though, instead of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt; element we want to use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; element. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; element represents the dominant content of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;body&lt;/code&gt; element, which in this case is the list of links.&lt;/p&gt;
+
+&lt;p&gt;So now wrap the rest of the content in your body in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; element. Make sure you have an opening tag before all the content you want to contain, a closing tag after all the content, and that the content inside the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; element is indented appropriately.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step2b.png&quot; alt=&quot;adding main element to html file&quot; title=&quot;Step 2b&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2c-splitting-the-list&quot;&gt;Step 2c: Splitting the List&lt;/h4&gt;
+
+&lt;p&gt;Next we want to split the unordered list into two unordered lists. We want to do this because one column of this page is going to be exercise links and the other column is going to be project links.&lt;/p&gt;
+
+&lt;p&gt;The unordered list should be split up with a list for exercises and a list for the project. To do that just go to where the last exercise is and close the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ul&lt;/code&gt; after it and then open another one after that. This is lines 23 and 24 in the screenshot below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step2c.png&quot; alt=&quot;splitting the list into two lists&quot; title=&quot;Step 2c&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2d-adding-two-div-elements&quot;&gt;Step 2d: Adding Two Div Elements&lt;/h4&gt;
+
+&lt;p&gt;Finally we want to wrap each list in its own &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt; element so we can add styles to make two columns instead of the single column that it is right now.&lt;/p&gt;
+
+&lt;p&gt;Before each &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ul&lt;/code&gt; add an opening &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt; tag and after each &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ul&lt;/code&gt; add a closing div tag. Don’t forget to indent contained elements one level each.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step2d1.png&quot; alt=&quot;wrapping each list in a div element&quot; title=&quot;Step 2d&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The last step here is adding a class to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt; elements. Since these are two equal columns and they are probably going to have the same styles we can give them both the same class name. It could be whatever you want but I’m going to use “col” to keep it short and informative.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step2d2.png&quot; alt=&quot;giving the div elements the col class&quot; title=&quot;Step 2d&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you should have a nicely sectioned and formatted file that has a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt;, a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt;, 2 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ul&lt;/code&gt;’s, and 2 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt;’s each with the “col” class. I’m also going to add two heading elements in each column to show which column is which. Not something you have to do but helpful for someone who might be unfamiliar with the site.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step2d3.png&quot; alt=&quot;adding h2 elements above each list&quot; title=&quot;Step 2d&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now if you save it and preview the file you will see that nothing really changed with the exception of the list now being two lists.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step2d4.png&quot; alt=&quot;preview of page in browser&quot; title=&quot;Step 2d&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-adding-styles&quot;&gt;&lt;span id=&quot;step3&quot;&gt;Step 3: Adding Styles&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;The page is structured how it needs to be in order to allow for two columns to work but we still need to add the CSS rules that make the site display like we want. The wireframe below illustrates the layout we are going for. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt; is the blue box with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h1&lt;/code&gt; type in there. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; is the yellow box with the two red &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt;’s in there each containing one of the lists. We don’t want them stretching across the page so we are going to give them some widths to make the content narrower and add some margins to make that width center on the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3.png&quot; alt=&quot;wireframe of what the site should look like&quot; title=&quot;Step 3&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3a-header-styles&quot;&gt;Step 3a: Header Styles&lt;/h4&gt;
+
+&lt;p&gt;Let’s start at the top with getting the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt; element into its place. I added some comments to my CSS file to note where my general, layout, type, and link styles are to help keep me organized. The styles we are getting ready to add are going to go under my layout styles comment.&lt;/p&gt;
+
+&lt;p&gt;The first thing we want to do when we want to style something is write the correct selector. In this case I want to style the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt; element so I’ll use an element selector and type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header { }&lt;/code&gt; on a new line. In between those two curly brackets I’m going to add an empty line so the final result will look like the screenshot below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3a1.png&quot; alt=&quot;header style rule set up&quot; title=&quot;Step 3a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that the basic syntax is there let’s start writing some declarations. I know I want to change the width and make sure it is centered on the page so I’m going to add the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;width&lt;/code&gt; property and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;margin&lt;/code&gt; property. I’m also going to add a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background-color&lt;/code&gt; to this so we can see what is happening and remove it later. The value for the width is up to you. I’m going to start with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;75vw&lt;/code&gt; (vw stands for viewport widths so 75vw equals 75% of the width of the window) for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;width&lt;/code&gt; and add a blue background color to keep true to the wireframe. For the margins I want the top and bottom to be 25px and I want it to be centered on the page and I want to write this all as one declaration. There is an easy way to get the element to center on the page once I have given it a width. Do you remember what it is and how to write the margins as one declaration? Check your answer here &lt;span class=&quot;spoiler&quot;&gt;margin: 25px auto&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3a2.png&quot; alt=&quot;width, background color and margin declarations for header&quot; title=&quot;Step 3a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Save the CSS file (and make sure the HTML file is saved) and preview the HTML file. Mine looks something like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3a3.png&quot; alt=&quot;preview of HTML file&quot; title=&quot;Step 3a&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3b-main-styles&quot;&gt;Step 3b: Main Styles&lt;/h4&gt;
+
+&lt;p&gt;We are going to repeat that same process for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; element. The only change is instead of a blue background we are going to give it a yellow background.&lt;/p&gt;
+
+&lt;p&gt;So your code should look something like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3b1.png&quot; alt=&quot;style rules for main element&quot; title=&quot;Step 3b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And your site should look something like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3b2.png&quot; alt=&quot;preview of HTML file&quot; title=&quot;Step 3b&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3c-col-styles&quot;&gt;3c: .col Styles&lt;/h4&gt;
+
+&lt;p&gt;The final step is getting the columns to show up side by side. Since we have a class for our &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt; elements we are going to use that as our selector instead of the element selector &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt;. This is because the class selector is more specific which in this case isn’t a big deal because the only two &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt; elements on the page have the “col” class but you can imagine if there were more &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt; elements that had other classes we couldn’t just use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt; element selector to style them.&lt;/p&gt;
+
+&lt;p&gt;So in the CSS file we want to use the class selector &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.col&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3c1.png&quot; alt=&quot;.col style rule set up&quot; title=&quot;Step 3c&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first thing we need to do is add a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;width&lt;/code&gt;. Now there is an easy way to make these half as wide as there parent elements. Do you know what it is? &lt;span class=&quot;spoiler&quot;&gt;width: 50%;&lt;/span&gt; is correct! This works well for us because percentages are based on the width of the parent element. So instead of trying to figure out half of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;75vw&lt;/code&gt; we can just write &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;50%&lt;/code&gt; and the computer does the work for us. We are also going to add a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background-color&lt;/code&gt; here so we can see what is going on.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3c2.png&quot; alt=&quot;.col style rule set up&quot; title=&quot;Step 3c&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you preview the page it should look something like the below. The columns are half the width of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; element but they aren’t sitting next to each other yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3c3.png&quot; alt=&quot;preview of page&quot; title=&quot;Step 3c&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To get these to sit next to each other we need to add a new declaration. Do you know what it is? If you said &lt;span class=&quot;spoiler&quot;&gt;float: left;&lt;/span&gt; you are correct.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3c4.png&quot; alt=&quot;float declaration added to .col&quot; title=&quot;Step 3c&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3c5.png&quot; alt=&quot;preview of page&quot; title=&quot;Step 3c&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But if you notice on the previewed page the yellow background for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; element disappeared. Remember from the Floats lecture that when you float objects they get removed from the normal flow so the containing element does not think any floated elements are contained inside it so the height changes to the height of any none floated elements it is containing (which in this case the height is 0 because there are no elements that aren’t floated inside the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; element). To fix this we need to add one more line of code to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; CSS styles. Once &lt;span class=&quot;spoiler&quot;&gt;display: flow-root;&lt;/span&gt; gets added to the styles for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; element the yellow background comes back to the height of the longer red column.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3c6.png&quot; alt=&quot;display: flow-root; added to main&quot; title=&quot;Step 3c&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3c7.png&quot; alt=&quot;preview of page&quot; title=&quot;Step 3c&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After you remove the background colors you have reached the end. There is more we could do here as designers (and probably should do for practice). We could change the margins on the columns so that if the columns get too narrow the type won’t touch. If we added margins we would also have to account for that in the widths of the columns. We could add padding instead which doesn’t have to be accounted for in the width as long as you have the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;box-sizing&lt;/code&gt; set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;border-box&lt;/code&gt; for the universal selector. That would push the content away from the edge of its box and fix the issue of type touching if the columns got too close. Some other things to make sure you are adding here are styles for your links, importing fonts from Google or Adobe, colors, sizes, all the styles to make the page look great. If you want to check out the example repository code, you can find it on Github – &lt;a href=&quot;https://github.com/mmcdermott18/su2020-avt217/blob/gh-pages/index.html&quot;&gt;HTML file&lt;/a&gt;, &lt;a href=&quot;https://github.com/mmcdermott18/su2020-avt217/blob/gh-pages/css/main.css&quot;&gt;CSS file&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/4p1/step3c8.png&quot; alt=&quot;preview of finished page&quot; title=&quot;Step 3c&quot; /&gt;&lt;/p&gt;</content><author><name>Michael McDermott</name></author><category term="tutorials" /><summary type="html">How to use floats and divs to add columns to your site.</summary></entry><entry><title type="html">Bringing in Fonts</title><link href="http://localhost:4000/tutorials/3-point-1/" rel="alternate" type="text/html" title="Bringing in Fonts" /><published>2020-12-12T00:00:00-05:00</published><updated>2020-12-12T00:00:00-05:00</updated><id>http://localhost:4000/tutorials/3%20point%201</id><content type="html" xml:base="http://localhost:4000/tutorials/3-point-1/">&lt;p&gt;This tutorial will explain how to bring in fonts from &lt;a href=&quot;https://fonts.google.com/&quot;&gt;fonts.google.com&lt;/a&gt; and &lt;a href=&quot;https://fonts.adobe.com/&quot;&gt;fonts.adobe.com&lt;/a&gt;. This tutorial will use your main &lt;strong&gt;index.html&lt;/strong&gt; file and its associated CSS file to bring in the fonts.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-open-your-repository-and-files&quot;&gt;&lt;span id=&quot;step1&quot;&gt;Step 1: Open Your Repository and Files&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Open your repository in Atom and then open up your main &lt;strong&gt;index.html&lt;/strong&gt; file and CSS file associated with it by double clicking on the files in the tree view.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step1a1.png&quot; alt=&quot;repository opened in Atom&quot; title=&quot;Step 1a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once both are open you can view them side by side by dragging the the tab with your CSS file to the right until the right column is highlighted. Once it is highlighted you can let go and you should be able to see both files as a split screen in Atom. If you don’t want to work this way that’s okay.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step1a2.png&quot; alt=&quot;two column view in Atom&quot; title=&quot;Step 1a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In that screenshot you will notice that I have reset some of the default styles  that we talked about in The CSS Box Model lecture.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-choose-google-fonts&quot;&gt;&lt;span id=&quot;step2&quot;&gt;Step 2: Choose Google Fonts&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Open up your browser and go to &lt;a href=&quot;https://fonts.google.com/&quot;&gt;fonts.google.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2.png&quot; alt=&quot;fonts.google.com homepage&quot; title=&quot;Step 2&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2a-select-a-font-family&quot;&gt;Step 2a: Select a Font Family&lt;/h4&gt;
+&lt;p&gt;There are a lot of font families on Google Fonts. Take a minute to browse through and find one you want to use on your site. In the top right of each font family box there is some text that says “1 style” or “6 styles” or “variable”. Select a font family that has 2 or more styles and stay away from variable for the moment. Once you found the font family you want to use, click on it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2a.png&quot; alt=&quot;a font family selected&quot; title=&quot;Step 2a&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2b-select-styles&quot;&gt;Step 2b: Select Styles&lt;/h4&gt;
+&lt;p&gt;On this screen you need to select the styles you are going to use. Try and select only the ones you plan on using. You don’t need to pick a font family that has 28 styles and then select all 28 because most likely you won’t be using all 28 styles. I typically try to get a Regular, Regular Italic, Bold, and Bold Italic as a starting point. Usually I will need at least those four but if you think you might need any extra select away.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2b.png&quot; alt=&quot;styles selected&quot; title=&quot;Step 2b&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2c-get-code&quot;&gt;Step 2c: Get Code&lt;/h4&gt;
+&lt;p&gt;After you have your styles selected you can click on the “View your selected families” icon in the top right. It has three squares and a plus sign and should have a red circle in the top right. A panel should slide on the screen that shows your selected family when you click on the icon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2c1.png&quot; alt=&quot;a font family selected&quot; title=&quot;Step 2c&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Check to make sure the fonts you think should be there are there and then click on the “Embed” tab at the top of the panel. This will bring up the tab that has the code for you to link to the fonts from your HTML document and add the font family to your CSS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2c2.png&quot; alt=&quot;embed tab of selected family panel&quot; title=&quot;Step 2c&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2d-copy-link-and-paste-in-html-document&quot;&gt;Step 2d: Copy Link and Paste in HTML Document&lt;/h4&gt;
+&lt;p&gt;Copy the first bit of code under the &amp;lt;link&amp;gt;. Once it is copied go back to Atom and paste it in your &lt;strong&gt;index.html&lt;/strong&gt; file. Where should you paste it you might ask? It should go in the &lt;span class=&quot;spoiler&quot;&gt;head&lt;/span&gt; of course! Paste it in there above the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link&lt;/code&gt; element for your CSS file. Remember, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;head&lt;/code&gt; contains information about the document itself and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;body&lt;/code&gt; contains the content of the document.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2d.png&quot; alt=&quot;pasted link element in HTML&quot; title=&quot;Step 2d&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2e-copy-css-and-paste-in-css-document&quot;&gt;Step 2e: Copy CSS and Paste in CSS Document&lt;/h4&gt;
+&lt;p&gt;Copy the second bit of code from the Google Fonts embed panel under the “CSS rules to specify families”. Once it is copied go back to Atom and paste it in your CSS file. Where should you paste it you might ask? Well this time it could go a lot of places because it depends on what in your HTML file you want to use new fonts. In this case, everything is going to use these fonts so I’m going to add them to a style rule for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;body&lt;/code&gt;. But if you just wanted your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h1&lt;/code&gt; element to be the new font you could make a style rule for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h1&lt;/code&gt; element. Or if you wanted the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;li&lt;/code&gt; elements to be the new font you could make a style rule for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;li&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2e.png&quot; alt=&quot;pasted font-family in CSS&quot; title=&quot;Step 2e&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-save-and-preview&quot;&gt;&lt;span id=&quot;step3&quot;&gt;Step 3: Save and Preview&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;The last step is to check and see if everything worked. Make sure both your HTML and CSS files are saved and then preview your HTML file. Hopefully the font on the page should change to the new font you selected. If it doesn’t, go back and make sure you pasted the whole &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link&lt;/code&gt; element in the head of your document and that you pasted the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-family&lt;/code&gt; styles into your CSS file correctly.&lt;/p&gt;
+
+&lt;p&gt;Homepage before:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step3-1.png&quot; alt=&quot;homepage with default fonts&quot; title=&quot;Step 3 before&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Homepage after:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step3-2.png&quot; alt=&quot;homepage with Google fonts&quot; title=&quot;Step 3 after&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-choose-adobe-fonts&quot;&gt;&lt;span id=&quot;step4&quot;&gt;Step 4: Choose Adobe Fonts&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;If you have a subscription to Creative Cloud, go through step four. If you don’t, the fonts available to you without a CC subscription are many of the same ones on Google so you aren’t going to find much difference here.&lt;/p&gt;
+
+&lt;p&gt;If you have a CC subscription, go to &lt;a href=&quot;https://fonts.adobe.com/&quot;&gt;fonts.adobe.com&lt;/a&gt; and make sure your are signed in using your Adobe ID.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4.png&quot; alt=&quot;fonts.adobe.com homepage&quot; title=&quot;Step 4&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4a-select-a-font-family&quot;&gt;Step 4a: Select a Font Family&lt;/h4&gt;
+&lt;p&gt;There are also a lot of font families on Adobe Fonts. Take a minute to browse through and find one you want to use on your site. Like you did with the fonts on Google, look for a font that has more than 2 fonts in it. The number of fonts is next to the name of the font. For the Adobe font, choose the opposite of what you picked from Google. So if you picked a serif on Google, pick a sans-serif on Adobe. Choose something that will be easy to tell apart. Once you found the font family you want to use, click on the “View Family” button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4a.png&quot; alt=&quot;a font family selected&quot; title=&quot;Step 4a&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4b-add-to-web-project&quot;&gt;Step 4b: Add to Web Project&lt;/h4&gt;
+&lt;p&gt;Click the “Add to Web Project” on the right.&lt;/p&gt;
+
+&lt;p&gt;In the pop up that appears, click the down arrow and create a new project. The name can be whatever you want, I’m calling mine “avt217”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4b1.png&quot; alt=&quot;new project&quot; title=&quot;Step 4b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have the project created you can select the styles you want to use. I’m going to select the same thing I did before, Regular, Regular Italic, Bold, and Bold Italic.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4b2.png&quot; alt=&quot;styles selected&quot; title=&quot;Step 4b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have the styles you want checked, click the “Create” button.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4c-get-code&quot;&gt;Step 4c: Get Code&lt;/h4&gt;
+&lt;p&gt;After clicking the “Create” button the pop up will change to the code screen. This screen is very similar to the Google screen but has a little bit more detailed CSS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4c.png&quot; alt=&quot;code options in adobe fonts&quot; title=&quot;Step 4c&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4d-copy-link-and-paste-in-html-document&quot;&gt;Step 4d: Copy Link and Paste in HTML Document&lt;/h4&gt;
+&lt;p&gt;Copy the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link&lt;/code&gt; element code and paste it into the head of your &lt;strong&gt;index.html&lt;/strong&gt; file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4d.png&quot; alt=&quot;pasted link element in HTML&quot; title=&quot;Step 4d&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4e-copy-css-and-paste-in-css-document&quot;&gt;Step 4e: Copy CSS and Paste in CSS Document&lt;/h4&gt;
+&lt;p&gt;The CSS code is a little more detailed here than it was on Google. The difference being Adobe is giving you more than you might need and Google is assuming you know how to change the weight or style on your own. The main thing to copy here is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-family&lt;/code&gt; declaration. Once you have that copied, go back to your CSS file and make a new style rule. Depending on where you added the Google font you selected, do the opposite with this one. So if you added the Google font to the heading elements, add this to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;li&lt;/code&gt; elements. If you added the Google font to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;body&lt;/code&gt; you can add this one to the heading elements or the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;li&lt;/code&gt; elements and it will override the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;body&lt;/code&gt; declaration.&lt;/p&gt;
+
+&lt;p&gt;I’m going to add it to my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h1&lt;/code&gt; element. Because using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h1&lt;/code&gt; as the selector is more specific than the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;body&lt;/code&gt; selector, this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-family&lt;/code&gt; will override the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-family&lt;/code&gt; for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;body&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4e.png&quot; alt=&quot;adding font-family to h1&quot; title=&quot;Step 4e&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m also going to add a few extra styles to this page to make the type a little bigger, style the list and links a little, give it some margins so it isn’t smashed up against the edges of the browser window, and add a little color.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-5-save-and-preview-again&quot;&gt;&lt;span id=&quot;step5&quot;&gt;Step 5: Save and Preview Again&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Make sure both your HTML and CSS files are saved and then preview your HTML file again. Hopefully the font on the page should change to the new font you selected. If it doesn’t, go back and make sure you pasted the whole &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link&lt;/code&gt; element in the head of your document and that you pasted the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-family&lt;/code&gt; styles into your CSS file correctly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step5.png&quot; alt=&quot;preview of page&quot; title=&quot;Step 5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Look at the class repository to see the styles I used to get the page to look like that if you are interested.&lt;/p&gt;
+
+&lt;p&gt;Note: The two &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link&lt;/code&gt; elements that you pasted in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;head&lt;/code&gt; of your HTML file need to exist in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;head&lt;/code&gt; of every HTML file where you want to use those fonts.&lt;/p&gt;</content><author><name>Michael McDermott</name></author><category term="tutorials" /><summary type="html">How to bring fonts from Google or Adobe into your site.</summary></entry><entry><title type="html">Making it Responsive</title><link href="http://localhost:4000/tutorials/5-point-1/" rel="alternate" type="text/html" title="Making it Responsive" /><published>2020-12-12T00:00:00-05:00</published><updated>2020-12-12T00:00:00-05:00</updated><id>http://localhost:4000/tutorials/5%20point%201</id><content type="html" xml:base="http://localhost:4000/tutorials/5-point-1/">&lt;p&gt;This tutorial will go through the process of making a site responsive. It will use your main &lt;strong&gt;index.html&lt;/strong&gt; file and its associated CSS file to make your homepage go from two columns on larger screens to one column on smaller screens.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-open-your-repository-and-files&quot;&gt;&lt;span id=&quot;step1&quot;&gt;Step 1: Open Your Repository and Files&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Open your repository in Atom and then open up your main &lt;strong&gt;index.html&lt;/strong&gt; file and CSS file associated with it by double clicking on the files in the tree view.&lt;/p&gt;
+
+&lt;p&gt;Really the main focus here is the CSS file but we might want to reference what is happening in the HTML file so it is worth having them both open. Your HTML file should be set up similarly to the screenshot below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step1.png&quot; alt=&quot;HTML file&quot; title=&quot;Step 1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-write-the-media-query&quot;&gt;&lt;span id=&quot;step2&quot;&gt;Step 2: Write the Media Query&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;The first part of making a responsive site is writing the media query where we will add our responsive styles. Once we have the media query written we can start to add styles that will only happen at a certain range of screen sizes. In this case we designed the desktop version so we want the media query to happen when the screen gets smaller.&lt;/p&gt;
+
+&lt;p&gt;Open up your site in a browser and start making the window smaller. There will come a point where the two columns on the homepage start to get too close together, start touching, or the columns are too narrow. Once you find that point, get the width of your browser by going to a site like &lt;a href=&quot;http://howbigismybrowser.com/&quot;&gt;howbigismybrowser.com&lt;/a&gt;. Look at what the width is and remember that number for when you write your media query. For my site it is around 900px.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step2-1.png&quot; alt=&quot;900px wide window is where the site starts to get messy&quot; title=&quot;Step 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You are going to write the media query in your CSS and you need to add it after all your main CSS styles. So scroll to the bottom of your CSS file and write &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@media screen and (max-width: 900px) { }&lt;/code&gt; with the number after &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max-width&lt;/code&gt; the number you came up with above.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step2-2.png&quot; alt=&quot;adding media query&quot; title=&quot;Step 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure when you add this you do not have a semicolon after the value for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max-width&lt;/code&gt; and you include the curly brackets with an empty line between them like in the screenshot above.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-from-two-columns-to-one&quot;&gt;&lt;span id=&quot;step3&quot;&gt;Step 3: From Two Columns to One&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;Now that the media query is there you can start to write some styles for what happens when your site is viewed at a width of below whatever number you used. So you are writing styles to override your base styles when the screen is between 0px wide and your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max-width&lt;/code&gt; value wide.&lt;/p&gt;
+
+&lt;p&gt;Let’s start with something easy to make sure your media query is written correctly.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3a-check-if-the-media-query-works&quot;&gt;Step 3a: Check if the Media Query Works&lt;/h4&gt;
+
+&lt;p&gt;Inside the media query write a style to change the background color of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;body&lt;/code&gt; to something different. Make sure when you start writing the selector you are indented one level because all of these style rules go inside the media query. I changed the background color for my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;body&lt;/code&gt; to a light grey.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3a1.png&quot; alt=&quot;changing the baackground color in the media query&quot; title=&quot;Step 3a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3a2.png&quot; alt=&quot;result of CSS at below 900px wide on the page&quot; title=&quot;Step 3a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If your change doesn’t happen go back through step two and make sure you are writing your media query at the bottom of the CSS file and that you don’t have a semicolon after the value for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max-width&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If your background color changes, carry on.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3b-adding-style-rules-to-the-media-query&quot;&gt;Step 3b: Adding Style Rules to the Media Query&lt;/h4&gt;
+
+&lt;p&gt;The main thing we want to do with this page is to go from two columns to one column. At a certain point two columns isn’t practical on smaller screens so instead of having two super skinny columns we want to make one column for a better reading experience on the smaller screen.&lt;/p&gt;
+
+&lt;p&gt;To do that we need to override some of our column styles from the main CSS. If you scroll up in your CSS to look at the styles you have that control your two columns you should see something similar to this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3b1.png&quot; alt=&quot;style rule for the columns&quot; title=&quot;Step 3b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy and paste that whole style rule down into your media query and delete the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;body&lt;/code&gt; style rule. Again making sure everything is properly indented.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3b2.png&quot; alt=&quot;style rule for the columns in the media query&quot; title=&quot;Step 3b&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3c-deciding-what-needs-to-change&quot;&gt;Step 3c: Deciding What Needs to Change&lt;/h4&gt;
+
+&lt;p&gt;We don’t need all of these declarations in this rule so let’s decide what we want to change here. The main property that is allowing our two columns to work is the &lt;span class=&quot;spoiler&quot;&gt;width&lt;/span&gt; property. You might have answered the &lt;span class=&quot;spoiler&quot;&gt;float&lt;/span&gt; property which is sort of true but that property won’t do anything unless the other property allows it to. So since you really only need to work with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;width&lt;/code&gt; property you can delete the other two declarations because you don’t need to change anything about them. Remember, the only styles in a media query are ones you are overriding/changing from your main styles or that are entirely new styles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3c.png&quot; alt=&quot;only the width declaration remains in the media query&quot; title=&quot;Step 3c&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3d-changing-the-value&quot;&gt;Step 3d: Changing the Value&lt;/h4&gt;
+
+&lt;p&gt;Now that only the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;width&lt;/code&gt; property remains, what does the value need to be to make the change we want? If 50% is giving the space necessary to float two columns next to each other and now we only want one column, the value for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;width&lt;/code&gt; should be changed to &lt;span class=&quot;spoiler&quot;&gt;100%&lt;/span&gt;. This way the column takes up the entire width of its container (the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; element) and nothing can float next to it because there is no room.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3d1.png&quot; alt=&quot;width declaration to 100% in media query&quot; title=&quot;Step 3d&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3d2.png&quot; alt=&quot;page now displaying as a single column&quot; title=&quot;Step 3d&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3e-adding-new-styles&quot;&gt;Step 3e: Adding New Styles&lt;/h4&gt;
+
+&lt;p&gt;The final thing we want to do here is add any new styles that we might need to make the page look the best it can. In the screenshot above the word Project is too close to the last item in the list of exercises. That is an easy fix by adding a &lt;span class=&quot;spoiler&quot;&gt;margin&lt;/span&gt; to the columns.&lt;/p&gt;
+
+&lt;p&gt;In the style rule for the columns in the media query, add a margin on the bottom to separate the two stacked columns. In this case I am going to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;margin-bottom: 50px;&lt;/code&gt; because that is the only margin I want to change. If this has other margins on it in my main styles and I write &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;margin: 0 0 50px 0;&lt;/code&gt; it is going to override any existing margins on the top, left, and right and set them to zero. Not something that I probably want to happen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3e1.png&quot; alt=&quot;adding a bottom margin into the media query&quot; title=&quot;Step 3e&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3e2.png&quot; alt=&quot;columns having more vertical separation&quot; title=&quot;Step 3e&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-adjust-other-styles&quot;&gt;&lt;span id=&quot;step4&quot;&gt;Step 4: Adjust Other Styles&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;Now that we have gone through the basic setup of making a page responsive, we can make other changes that need to happen when your page gets narrower. For my page I’m going increase the width of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt; elements so there is more room for the type. I might decrease the size of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h1&lt;/code&gt; element so it isn’t quite so big. I could go through and change a lot more if I wanted to but the goal here is to make the existing designs look their best on a smaller screen, not redesign the site.&lt;/p&gt;
+
+&lt;p&gt;And again, I’m only using using the properties I want to change or add so I don’t need to include &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;margin&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;padding&lt;/code&gt;, or the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-family&lt;/code&gt; in the media query because I’m not making any changes to them. I also didn’t have to make any adjustments to the HTML file just reference it to make sure I’m changing the correct elements or classes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step4-1.png&quot; alt=&quot;adjusting a few more styles in the media query&quot; title=&quot;Step 4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step4-2.png&quot; alt=&quot;width main width, smaller type on live page&quot; title=&quot;Step 4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to check out the example repository code, you can find it on Github – &lt;a href=&quot;https://github.com/mmcdermott18/su2020-avt217/blob/gh-pages/index.html&quot;&gt;HTML file&lt;/a&gt;, &lt;a href=&quot;https://github.com/mmcdermott18/su2020-avt217/blob/gh-pages/css/main.css&quot;&gt;CSS file&lt;/a&gt;.&lt;/p&gt;</content><author><name>Michael McDermott</name></author><category term="tutorials" /><summary type="html">How to make sites responsive with CSS.</summary></entry><entry><title type="html">Week 15</title><link href="http://localhost:4000/due/due/" rel="alternate" type="text/html" title="Week 15" /><published>2020-11-24T00:00:00-05:00</published><updated>2020-11-24T00:00:00-05:00</updated><id>http://localhost:4000/due/due</id><content type="html" xml:base="http://localhost:4000/due/due/"></content><author><name>Michael McDermott</name></author><category term="due" /><summary type="html"></summary></entry><entry><title type="html">Week 14</title><link href="http://localhost:4000/due/due/" rel="alternate" type="text/html" title="Week 14" /><published>2020-11-17T00:00:00-05:00</published><updated>2020-11-17T00:00:00-05:00</updated><id>http://localhost:4000/due/due</id><content type="html" xml:base="http://localhost:4000/due/due/"></content><author><name>Michael McDermott</name></author><category term="due" /><summary type="html"></summary></entry><entry><title type="html">Week 13</title><link href="http://localhost:4000/due/due/" rel="alternate" type="text/html" title="Week 13" /><published>2020-11-10T00:00:00-05:00</published><updated>2020-11-10T00:00:00-05:00</updated><id>http://localhost:4000/due/due</id><content type="html" xml:base="http://localhost:4000/due/due/"></content><author><name>Michael McDermott</name></author><category term="due" /><summary type="html"></summary></entry><entry><title type="html">Week 12</title><link href="http://localhost:4000/due/due/" rel="alternate" type="text/html" title="Week 12" /><published>2020-11-03T00:00:00-05:00</published><updated>2020-11-03T00:00:00-05:00</updated><id>http://localhost:4000/due/due</id><content type="html" xml:base="http://localhost:4000/due/due/">&lt;h4 id=&quot;nothing&quot;&gt;Nothing&lt;/h4&gt;
+
+&lt;p&gt;No class for Election Day&lt;/p&gt;</content><author><name>Michael McDermott</name></author><category term="due" /><summary type="html">Nothing</summary></entry><entry><title type="html">Week 11</title><link href="http://localhost:4000/due/due/" rel="alternate" type="text/html" title="Week 11" /><published>2020-10-27T00:00:00-04:00</published><updated>2020-10-27T00:00:00-04:00</updated><id>http://localhost:4000/due/due</id><content type="html" xml:base="http://localhost:4000/due/due/"></content><author><name>Michael McDermott</name></author><category term="due" /><summary type="html"></summary></entry><entry><title type="html">Week 10</title><link href="http://localhost:4000/due/due/" rel="alternate" type="text/html" title="Week 10" /><published>2020-10-20T00:00:00-04:00</published><updated>2020-10-20T00:00:00-04:00</updated><id>http://localhost:4000/due/due</id><content type="html" xml:base="http://localhost:4000/due/due/"></content><author><name>Michael McDermott</name></author><category term="due" /><summary type="html"></summary></entry></feed>
