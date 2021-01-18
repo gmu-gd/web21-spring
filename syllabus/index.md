@@ -3,7 +3,7 @@ layout: interior
 title: Syllabus
 ---
 ### General
-This is the syllabus for the _Spring 2021_ class of _AVT 217: Intro to Web Design (3 credits)_. The instructor is _Michael McDermott_, can be reached by email at _mmcderm8 at gmu dot edu_, and can be met with at his [virtual office hours](https://calendly.com/michaelmcdermott) on Mondays from 12&ndash;2, Wednesdays from 10&ndash;12, and Fridays from 12&ndash;2.
+This is the syllabus for the _Spring 2021_ class of _AVT 217: Intro to Web Design (3 credits)_. The instructor is _Michael McDermott_, can be reached by email at _mmcderm8 at gmu dot edu_, and can be met with at his [virtual office hours](https://calendly.com/michaelmcdermott) on Mondays from 10&ndash;12, Wednesdays from 12&ndash;2, and Fridays from 10&ndash;12.
 
 ### Delivery and Timing
 This is a synchronous online course. That means we will meet once a week on Tuesdays from 10:30 to 1:10. These meetings are required and sections of the class will be recorded for later review. The class is scheduled to run for 14 weeks and you can expect to work for 6 hours outside of class each week.
