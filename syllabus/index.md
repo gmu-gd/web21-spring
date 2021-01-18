@@ -210,7 +210,7 @@ Once the add and drop deadlines have passed, instructors do not have the authori
 <li><span class="date">February 16:</span> final drop deadline: last day for 50% tuition refund</li>
 <li><span class="date">February 17–March 1:</span> unrestricted withdrawal period: 100% tuition liability</li>
 <li><span class="date">February 21–March 24:</span> mid-term evaluation period: 100-200 level classes</li>
-<li><span class="date">March 2–Apr 1:</span> selective withdrawal period (undergraduate students only)</li>
+<li><span class="date">March 2–April 1:</span> selective withdrawal period (undergraduate students only)</li>
 <li><span class="date">n/a:</span> spring break (classes do not meet)</li>
 <li><span class="date">March 26:</span> incomplete work from fall 2020 due to instructor</li>
 <li><span class="date">April 2:</span> incomplete grade changes from fall 2020 due to registrar</li>
