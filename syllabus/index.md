@@ -6,7 +6,7 @@ title: Syllabus
 This is the syllabus for the _Spring 2021_ class of _AVT 217: Intro to Web Design (3 credits)_. The instructor is _Michael McDermott_, can be reached by email at _mmcderm8 at gmu dot edu_, and can be met with at his [virtual office hours](https://calendly.com/michaelmcdermott) on Mondays from 10&ndash;12, Wednesdays from 12&ndash;2, and Fridays from 10&ndash;12.
 
 ### Delivery and Timing
-This is a synchronous online course. That means we will meet once a week on Tuesdays from 10:30 to 1:10. These meetings are required and sections of the class will be recorded for later review. The class is scheduled to run for 14 weeks and you can expect to work for 6 hours outside of class each week.
+This is a synchronous online course. That means we will meet once a week on Tuesdays. These meetings are required and sections of the class will be recorded for later review. The class is scheduled to run for 14 weeks and you can expect to work for 6 hours outside of class each week.
 
 ### Prerequisites
 AVT 180: New Media in the Creative Arts, AVT 110: Digital Design Studio, or permission of instructor.
@@ -86,9 +86,9 @@ This course has an engagement policy instead of an attendance policy. Your engag
 * Care about yourself & your work, your classmates & their work, and this class.
 
 ### Weekly Schedule
-Class is on Tuesdays from 10:30–1:10. Most days we will meet for the entire time but some weeks we will have individual meetings or end early. All work is due the Monday before class by 11:59pm ET. This will allow me time to review before class and make sure you aren't working at 3am. Time management is an important skill to master and, more importantly, you need to sleep.
+Class is on Tuesdays. Most days we will meet for the entire time but some weeks we will have individual meetings or end early. All work is due the Monday before class by 11:59pm ET. This will allow me time to review before class and make sure you aren't working at 3am. Time management is an important skill to master and, more importantly, you need to sleep.
 
-### Schedule
+### Semester Schedule
 The [schedule]({{ site.baseurl }}/schedule/) on this site is an outline of what we will be covering this spring with due dates. It is subject to additions and subtractions.
 
 ### Discussion of Work
