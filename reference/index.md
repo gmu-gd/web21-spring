@@ -4,8 +4,10 @@ title: Reference
 ---
 
 ### Websites, Useful
-* [Class Repository - Github](https://github.com/mmcdermott18/avt217-fa20-tues/)
-* [Class Repository - Live](https://mmcdermott18.github.io/avt217-fa20-tues/)
+* [Class Repository AM - Github](https://github.com/mmcdermott18/avt217-sp21-am/)
+* [Class Repository AM - Live](https://mmcdermott18.github.io/avt217-sp21-am)
+* [Class Repository PM - Github](https://github.com/mmcdermott18/avt217-sp21-pm/)
+* [Class Repository PM - Live](https://mmcdermott18.github.io/avt217-sp21-pm)
 * [HTML Elements Cheatsheet](https://gmu-gd.github.io/web20-spring/files/learn-html-elements.pdf)
 * [Codecademy](https://www.codecademy.com/)
 * [Interneting is Hard](https://www.internetingishard.com/)
