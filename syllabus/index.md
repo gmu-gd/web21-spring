@@ -203,22 +203,22 @@ Students are responsible for the content of university communications sent to th
 Once the add and drop deadlines have passed, instructors do not have the authority to approve requests from students to add or drop/withdraw late. Requests for late adds (up until the last day of classes) must be made by the student in the School of Art office (or the office of the department offering the course), and generally are only approved in the case of a documented university error (such as a problem with financial aid being processed), LATE ADD fee will apply. Requests for non-selective withdrawals and retroactive adds (adds after the last day of classes) must be approved by the academic dean of the college in which the student’s major is located. For AVT majors, that is the CVPA Office of Academic Affairs in College Hall.
 
 <ul class="date-list">
-<li><span class="date">jan 18:</span> mlk day: university closed</li>
-<li><span class="date">jan 25:</span> first day of spring classes</li>
-<li><span class="date">feb. 1:</span> last day to add: all individual sections forms due</li>
-<li><span class="date">feb 12:</span> last day to drop: with 100% tuition refund</li>
-<li><span class="date">feb. 16:</span> final drop deadline: last day for 50% tuition refund</li>
-<li><span class="date">feb 17–mar 1:</span> unrestricted withdrawal period: 100% tuition liability</li>
-<li><span class="date">feb 21–mar 24:</span> mid-term evaluation period: 100-200 level classes</li>
-<li><span class="date">mar 2–apr 1:</span> selective withdrawal period (undergraduate students only)</li>
+<li><span class="date">January 18:</span> mlk day: university closed</li>
+<li><span class="date">January 25:</span> first day of spring classes</li>
+<li><span class="date">February 1:</span> last day to add: all individual sections forms due</li>
+<li><span class="date">February 12:</span> last day to drop: with 100% tuition refund</li>
+<li><span class="date">February 16:</span> final drop deadline: last day for 50% tuition refund</li>
+<li><span class="date">February 17–March 1:</span> unrestricted withdrawal period: 100% tuition liability</li>
+<li><span class="date">February 21–March 24:</span> mid-term evaluation period: 100-200 level classes</li>
+<li><span class="date">March 2–Apr 1:</span> selective withdrawal period (undergraduate students only)</li>
 <li><span class="date">n/a:</span> spring break (classes do not meet)</li>
-<li><span class="date">mar 26:</span> incomplete work from fall 2020 due to instructor</li>
-<li><span class="date">apr 2:</span> incomplete grade changes from fall 2020 due to registrar</li>
-<li><span class="date">apr 30:</span> dissertation/thesis deadline</li>
-<li><span class="date">apr 30:</span> last day of class</li>
-<li><span class="date">may 1:</span> reading day(s) faculty may schedule optional study sessions</li>
-<li><span class="date">may 3–10:</span> examination period</li>
-<li><span class="date">may 14:</span> university commencement</li>
+<li><span class="date">March 26:</span> incomplete work from fall 2020 due to instructor</li>
+<li><span class="date">April 2:</span> incomplete grade changes from fall 2020 due to registrar</li>
+<li><span class="date">April 30:</span> dissertation/thesis deadline</li>
+<li><span class="date">April 30:</span> last day of class</li>
+<li><span class="date">May 1:</span> reading day(s) faculty may schedule optional study sessions</li>
+<li><span class="date">May 3–10:</span> examination period</li>
+<li><span class="date">May 14:</span> university commencement</li>
 </ul>
 
 
