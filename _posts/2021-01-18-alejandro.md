@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 author: Michael McDermott
-title: Alejandro
+title: Ale
 categories: [student-am]
-link: 
+link:
 ---
