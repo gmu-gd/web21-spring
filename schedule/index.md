@@ -15,8 +15,8 @@ This week we'll start to get to know a bit about each other and spend a little t
 * 1.2: Basic HTML
 
 #### Starting
-* E1: 20 Questions <!-- [20 Questions]({{ site.baseurl }}/projects#e1) -->
-* P1: Linking Narrative <!-- [Linking Narrative]({{ site.baseurl }}/projects/p1) -->
+* E1: [20 Questions]({{ site.baseurl }}/projects#e1)
+* P1: [Linking Narrative]({{ site.baseurl }}/projects/p1)
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 1&ndash;5](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
@@ -31,7 +31,7 @@ This week we will take a look at the primary visual structure of the web, grids.
 * 2.1: Grids &amp; Spacing
 
 #### Starting
-* E2: Make the Grid <!-- [Make the Grid]({{ site.baseurl }}/projects#e2) -->
+* E2: [Make the Grid]({{ site.baseurl }}/projects#e2)
 
 #### Digital References
 None
@@ -47,9 +47,9 @@ This week we'll go a little further into HTML and begin to introduce CSS. We wil
 * 3.3: External Style Sheets
 
 #### Starting
-* E3: Organization and Naming <!-- [Organization and Naming]({{ site.baseurl }}/projects#e3) -->
-* E4: Site Map <!-- [Site Map]({{ site.baseurl }}/projects#e4) -->
-* E5: Wireframes <!-- [Wireframes]({{ site.baseurl }}/projects#e5) -->
+* E3: [Organization and Naming]({{ site.baseurl }}/projects#e3)
+* E4: [Site Map]({{ site.baseurl }}/projects#e4)
+* E5: [Wireframes]({{ site.baseurl }}/projects#e5)
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 6, 11, 12, &amp; 13](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
@@ -64,8 +64,8 @@ Much of the information on the internet is gathered through reading. As designer
 * 4.1: Hierarchy &amp; Typography
 
 #### Starting
-* E6: Type on Screen I <!-- [Type on Screen I]({{ site.baseurl }}/projects#e6) -->
-* P2: Website for a &lbrack;blank&rbrack; <!-- [Website for a [&lbrack;blank&rbrack;]({{ site.baseurl }}/projects/p2) -->
+* E6: [Type on Screen I]({{ site.baseurl }}/projects#e6)
+* P2: [Website for a [&lbrack;blank&rbrack;]({{ site.baseurl }}/projects/p2)
 
 #### Digital References
 * _Interneting is Hard:_ [Web Typography](https://www.internetingishard.com/html-and-css/web-typography/)
