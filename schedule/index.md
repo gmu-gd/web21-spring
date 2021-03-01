@@ -65,7 +65,7 @@ Much of the information on the internet is gathered through reading. As designer
 
 #### Starting
 * E6: [Type on Screen I]({{ site.baseurl }}/projects#e6)
-* P2: [Website for a [&lbrack;blank&rbrack;]({{ site.baseurl }}/projects/p2)
+* P2: [Website for a Blank]({{ site.baseurl }}/projects/p2)
 
 #### Digital References
 * _Interneting is Hard:_ [Web Typography](https://www.internetingishard.com/html-and-css/web-typography/)
@@ -81,7 +81,7 @@ This week we will cover the parts and designs for navigation, how to add and sty
 * 5.2: CSS Selectors
 
 #### Starting
-* E7: seven-principles.txt <!-- [seven-principles.txt]({{ site.baseurl }}/projects#e7) -->
+* E7: [seven-principles.txt]({{ site.baseurl }}/projects#e7)
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 6, 11, &amp; 12](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
@@ -96,7 +96,7 @@ Responsive design is a key element of designing for the web today. This week we 
 * 6.1: Responsive Design
 
 #### Starting
-* E8: Visualizing Responsiveness <!-- [Visualizing Responsiveness]({{ site.baseurl }}/projects#e8) -->
+* E8: [Visualizing Responsiveness]({{ site.baseurl }}/projects#e8)
 
 #### Digital References
 * _Learning Web Design:_ [Chapter 17](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
