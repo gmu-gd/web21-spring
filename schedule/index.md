@@ -112,7 +112,7 @@ Every element in HTML is a rectangular box and the box model will help us unders
 * 7.2: Floats
 
 #### Starting
-* E9: Patterns <!-- [Patterns]({{ site.baseurl }}/projects#e9) -->
+* E9: [Patterns]({{ site.baseurl }}/projects#e9)
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 14 &amp; 15](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
