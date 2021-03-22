@@ -132,7 +132,7 @@ We will continue our discussion on floats and expand what we are able to build u
 * 7.2: Floats
 
 #### Starting
-* E10: Layouts <!-- [Layouts]({{ site.baseurl }}/projects#e10) -->
+* E10: [Layouts]({{ site.baseurl }}/projects#e10)
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 14 &amp; 15](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
