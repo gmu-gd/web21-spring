@@ -146,8 +146,8 @@ Using CSS we can position elements exactly where we want them to appear on scree
 * 8.1: Positioning
 
 #### Starting
-* E11: CSS Drawing <!-- [CSS Drawing]({{ site.baseurl }}/projects#e11) -->
-* P3: Single Serve or Build Project 2 <!-- [Single Serve]({{ site.baseurl }}/projects/p3a) or [Build Project 2]({{ site.baseurl }}/projects/p3b) -->
+* E11: [CSS Drawing]({{ site.baseurl }}/projects#e11)
+* P3: [Single Serve]({{ site.baseurl }}/projects/p3a) or [Build Project 2]({{ site.baseurl }}/projects/p3b)
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 15](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
