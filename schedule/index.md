@@ -156,16 +156,16 @@ Using CSS we can position elements exactly where we want them to appear on scree
 ---
 
 ### Week 11 [4.6]
-This week we will cover best practices for saving and using images on the web.
+This week we will cover best practices for designing and building navigation.
 
 #### Lessons
 * 9.1: Images
 
 #### Starting
-* E12: Type on Screen II <!-- [Type on Screen II]({{ site.baseurl }}/projects#e12) -->
+* E12: [Type on Screen II (Optional)]({{ site.baseurl }}/projects#e12) -->
 
 #### Digital References
-* _Learning Web Design:_ [Chapters 7](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
+* _Learning Web Design:_ [Chapters 6](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
 
 ---
 
