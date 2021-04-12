@@ -176,7 +176,7 @@ So far we have covered how to style pages with CSS but those styles have general
 * 10.1: CSS Animations
 
 #### Starting
-* E13: CSS Animations <!-- [CSS Animations]({{ site.baseurl }}/projects#e13) -->
+* E13: [CSS Animations (Optional)]({{ site.baseurl }}/projects#e13)
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 18 &amp; 19](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
