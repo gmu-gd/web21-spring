@@ -190,7 +190,7 @@ HTML and CSS are great for building and styling websites but they are not great 
 * 11.1: JavaScript and jQuery
 
 #### Starting
-* E14: jQuery <!--[jQuery]({{ site.baseurl }}/projects#e14)-->
+* E14: [jQuery]({{ site.baseurl }}/projects#e14)
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 21 &amp; 22](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
