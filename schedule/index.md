@@ -204,7 +204,7 @@ We made it to the end! Today we will complete our final exercise in class.
 * None
 
 #### In Class
-* E15: Programmer and Computer <!--[Programmer and Computer]({{ site.baseurl }}/projects#e15)-->
+* E15: [Programmer and Computer]({{ site.baseurl }}/projects#e15)
 
 #### Digital References
 * None
